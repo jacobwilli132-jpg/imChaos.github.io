@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link href="style.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <script src="script.js"></script>
+      
+      <title id="dynamicTitle">chaos</title>
+      
+      <script>
+        window.onload = function() {
+            var titles = [
+              "chaos games",
+              "CH@0$ G@M3$",
+              "⍧ℍ⍲⌾⎎ ⅁⍲⍓ℇ⎎",
+              "𐒨𐒅λ𐒀Ꮄ Ⳓλ𐒄𐒢Ꮄ",
+              "sǝɯɐᵷ soɐɥɔ",
+              "ꛕꛅꛎ𖣠ꕷ ꚽꛎ𖢑𖤢ꕷ",
+            ];
+            var randomIndex = Math.floor(Math.random() * titles.length);
+            document.getElementById('dynamicTitle').innerHTML = titles[randomIndex];
+        };
+      </script>
+      
+      <script>
+      
+        var icos = [
+              "jevil",
+              "spamton",
+              "mew",
+              "mewmew",
+              "tenna",
+              "knight",
+              "fren",
+              "js",
+              "css",
+              "html",
+            ];
+            
+        var ranIco = Math.floor(Math.random() * icos.length);
+        
+        //document.getElementById('dynamicIco').innerHTML = titles[randomIco];
+        
+        let favicon = document.createElement('link');
+        favicon.rel = 'icon';
+        favicon.href = `icons/${icos[ranIco]}.ico`;
+
+        document.head.appendChild(favicon);
+      </script>
+      <script type="text/javascript">
+  var imageURLs = [
+       "home%20memes/Papyrus%20flower.gif",
+       "home%20memes/napstablook.gif",
+       "home%20memes/undertalehd.jpg",
+       "home%20memes/So%20I%20haveth%20a%20Laser%20Pointere.webp",
+       "home%20memes/you%20are.gif",
+       "home%20memes/genocides.gif",
+       "home%20memes/the%20way.gif",
+       "home%20memes/gaster.gif",
+       "home%20memes/crowd.gif",
+       "home%20memes/SAVE.webp",
+       "home%20memes/cenama.gif",
+       "home%20memes/car.gif",
+       "home%20memes/ow.gif",
+       "home%20memes/backflip.gif",
+       "home%20memes/lancer%20joins.gif",
+       "home%20memes/get%20the%20banana.gif",
+       "home%20memes/quat.webp",
+       "home%20memes/campfire.gif",
+       "home%20memes/tree.webp",
+       "home%20memes/serch.gif",
+       "home%20memes/loL.gif",
+       "home%20memes/allsans.gif",
+       "home%20memes/pine.png",
+       "home%20memes/birdelle.gif",
+       "home%20memes/ralsei%20flower.gif",
+       "home%20memes/diagonal%20kris.png",
+       "home%20memes/Krisrock.webp",
+       "home%20memes/all%20camp%20fire.gif",
+       "home%20memes/bush.gif",
+       "home%20memes/balloons.gif",
+       "home%20memes/toriel birthdaycake.gif",
+       "home%20memes/dog.webp",
+       "home%20memes/dog%20balloon.webp",
+       "home%20memes/dog%20maracas.webp",
+       "home%20memes/dog%20car.webp",
+       "home%20memes/dog%20sleeping.webp",
+       "home%20memes/toby.jpg",
+       "home%20memes/olivegarden.jpg",
+       "home%20memes/who.gif",
+       "home%20memes/SAD.jpeg",
+       "home%20memes/triangle%20factory.webp",
+  ];
+  function getImageTag() {
+    var img = '<img src=\"';
+    var randomIndex = Math.floor(Math.random() * imageURLs.length);
+    img += imageURLs[randomIndex];
+    img += '\" alt=\"if you see this i think the image is not\"/>';
+    return img;
+  }
+</script>
+    </head>
+  <body>
+    
+    <audio id="sans" src="sound/sansvoice.wav" preload="auto"></audio>
+    
+    <a href="" class="nav">
+    <p>menu</p>
+    </a>
+    
+    <h1>Chaos games</h1>
+    <alt>THE FILE GOT DELLETED BUT LUCKLY ONE OF MY FREANDS HAD A COPY</alt>
+    <a href="https://forms.gle/t4tcn27QiLuZYNas5">
+     <p>Queston</p>
+    </a>
+    <a href="https://forms.gle/gsJiJ13afc6ABCMQA">
+     <p>Suggest a game</p>
+    </a>
+    
+    <a onclick="window.location.href='games/doge%20Miner/dogeminer.html';" class="default">
+      <img src="games/doge%20Miner/img/doge.png">
+    <p>doge miner</p>
+    </a>
+    
+    <a onclick="window.location.href='games/Doge%20miner/index.html';" class="default">
+      <img src="games/Doge%20miner/img/dogeminer_300x300.png">
+    <p>real doge</p>
+    </a>
+    
+    <a onclick="window.location.href='games/doom%20stuff/doom%203dhtml/doom.html';" class="default">
+      <img src="games/doom%20stuff/doom.png">
+    <p>DOOM</p>
+    </a>
+    
+    <a onclick="window.location.href='games/doom%20stuff/doom%20pdf/doom.pdf';" class="default">
+      <img src="games/doom%20stuff/doom.png">
+    <p>DOOM PDF</p>
+    </a>
+    
+    <a onclick="window.location.href='games/ULTRA/ULTRA.html';" class="default">
+      <img src="games/ULTRA/jumpscare.gif">
+    <p>ULTRA</p>
+    </a>
+    
+    <a onclick="window.location.href='games/crazy%20chicken/Crazy%20Chicken%203D.html';" class="default">
+      <img src="games/crazy%20chicken/3d.png">
+    <p>Chicken</p>
+    </a>
+    
+    <a onclick="window.location.href='games/hl/Half%20Life.html';" class="default">
+      <img src="games/hl/Half-Life.ico">
+    <p>half life</p>
+    </a>
+    
+    <a id="bgm1" src="sound/BIG20%SHOT.mp3" onclick="window.location.href='games/delta/trieing%20to%20get%20every%20thing%20to%20work%20offline/index.html';" class="default">
+      <img src="games/delta/deltarune.jpg">
+    <p>deltarune</p>
+    </a>
+    
+    <a onclick="playSans(); window.location.href='games/under/Undertale.html';" class="default">
+      <img src="games/under/undertale.avif">
+    <p>undertale</p>
+    </a>
+    
+    <a onclick="window.location.href='games/undertale%20yellow/undertale%20y.html';" class="default">
+      <img src="games/undertale%20yellow/yell.png">
+    <p>under yellow</p>
+    </a>
+    
+    <a onclick="window.location.href='games/repo/R.E.P.O.html';" class="default">
+      <img src="games/repo/repo.jpg">
+    <p>R.E.P.O</p>
+    </a>
+    
+    <a onclick="window.location.href='games/sandboxels-main/index.html';" class="default">
+      <img src="games/sandboxels-main/icons/apple-touch-icon-precomposed.png">
+    <p>sandboxels</p>
+    </a>
+    
+    <a onclick="window.location.href='games/minesweeper/index.html';" class="default">
+      <img src="games/minesweeper/minesweeper.png">
+    <p>minesweeper</p>
+    </a>
+    
+    <a onclick="window.location.href='games/people%20playground/pp.html';" class="defaults">
+      <img src="games/people%20playground/pp.jpg">
+    </a>
+    
+    <a onclick="window.location.href='games/Undertale%20boss%20Fights/Asriel%20Dreemurr%20Fight.html';" class="default">
+      <img src="games/Undertale%20boss%20Fights/icon/asriel.gif">
+      <p>Asriel</p>
+    </a>
+    
+    <a onclick="window.location.href='games/Undertale%20boss%20Fights/Omega%20Flowey%20Fight.html';" class="default">
+      <img src="games/Undertale%20boss%20Fights/icon/flowey.webp">
+      <p>Flowey</p>
+    </a>
+    
+    <a onclick="window.location.href='games/Undertale%20boss%20Fights/SansFight.html';" class="default">
+      <img src="games/Undertale%20boss%20Fights/icon/sans.png">
+      <p>Sans</p>
+    </a>
+    
+    
+    <a onclick="window.location.href='games/dbs4/Deltarune%20Battle%20Simulator%20V4.html';" class="default">
+      <img src="games/dbs4/dbs.webp">
+      <p>deta battel</p>
+    </a>
+    
+    <a onclick="window.location.href='games/scdm/-Chips Ahoyeth-.html';" class="default">
+      <img src="games/scdm/chip.png">
+      <p>ChipsAhoyeth</p>
+    </a>
+    
+    <a onclick="window.location.href='games/scdm/Smile-Award.html';" class="default">
+      <img src="games/scdm/Smile.png">
+      <p>Smile Award</p>
+    </a>
+    
+    <a onclick="window.location.href='games/scdm/-HyperLink-.html';" class="default">
+      <img src="games/scdm/HyperLink.png">
+      <p>HyperLink</p>
+    </a>
+    
+    <a onclick="window.location.href='https://homestuck.com';" class="default">
+      <img src="home%20stuff/homestuck.jpg">
+    <p>homestuck</p>
+    </a>
+    
+    <a onclick="window.location.href='games/hs-alternian-practice/index1.html';" class="default">
+      <img src="home%20stuff/homestuck.jpg">
+    <p>alternian</p>
+    </a>
+    
+    <a onclick="window.location.href='games/cookie%20clicker/Cookie%20Clicker/index.html';" class="default">
+      <img src="games/cookie%20clicker/cookie.png">
+    <p>cooky clik</p>
+    </a>
+    
+    <a onclick="window.location.href='games/flash/Ruffle.html';" class="default">
+      <img src="games/flash/ruffle.jpg">
+    <p>ruffle</p>
+    </a>
+    
+    <a onclick="window.location.href='games/emulat/webretro.html';" class="default">
+      <img src="games/emulat/retro.ico">
+    <p>Emulater</p>
+    </a>
+    
+    <div>
+    <script type="text/javascript">
+      document.write(getImageTag());
+    </script>
+    </div>
+    
+    <script>
+  // Array of your cursor image paths
+    const cursorImages = [
+    'home%20stuff/arrows/souls/1.png',
+    'home%20stuff/arrows/souls/2.png',
+    'home%20stuff/arrows/souls/3.png',
+    'home%20stuff/arrows/souls/4.png',
+    'home%20stuff/arrows/souls/5.png',
+    'home%20stuff/arrows/souls/6.png',
+    'home%20stuff/arrows/souls/7.png',
+    'home%20stuff/arrows/souls/8.png',
+    'home%20stuff/arrows/souls/9.png',
+    'home%20stuff/arrows/souls/10.png',
+    'home%20stuff/arrows/souls/11.png'
+  ];
+
+  // Get a random index from the array
+  const randomIndex = Math.floor(Math.random() * cursorImages.length);
+  const randomImage = cursorImages[randomIndex];
+
+  // Apply the random image as the cursor
+  document.body.style.cursor = `url(${randomImage}) 15 15, auto`;
+</script>
+
+  </body>
+</html>
